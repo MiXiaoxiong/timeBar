@@ -34,5 +34,8 @@
     "typescript": "^5.4.5",
     "vite": "^5.2.11",
     "vite-plugin-semi-theming": "^0.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
