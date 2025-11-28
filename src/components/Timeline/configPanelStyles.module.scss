@@ -1,0 +1,65 @@
+@import '~@douyinfe/semi-ui/dist/css/semi.min.css';
+
+.configPanel {
+  background-color: var(--semi-color-bg-0);
+  border-radius: var(--semi-border-radius-medium);
+  padding: 16px;
+  border: 1px solid var(--semi-color-border);
+  height: 100%;
+  overflow-y: auto;
+}
+
+.panelTitle {
+  font-size: var(--semi-font-size-lg);
+  font-weight: var(--semi-font-weight-medium);
+  color: var(--semi-color-text-0);
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--semi-color-border);
+}
+
+:global {
+  .semi-form-item {
+    margin-bottom: 16px;
+  }
+
+  .semi-form-item-label {
+    font-size: var(--semi-font-size-base);
+    color: var(--semi-color-text-1);
+    margin-bottom: 8px;
+  }
+
+  .semi-select {
+    width: 100%;
+  }
+
+  .semi-btn {
+    margin-top: 8px;
+  }
+}
+
+.errorText {
+  color: var(--semi-color-danger);
+  font-size: var(--semi-font-size-small);
+  margin-top: 8px;
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.groupSelector {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--semi-color-border);
+}
+
+.groupSelectorTitle {
+  font-size: var(--semi-font-size-base);
+  font-weight: var(--semi-font-weight-medium);
+  color: var(--semi-color-text-1);
+  margin-bottom: 12px;
+}

@@ -1,16 +1,45 @@
 {
-  "label.set.target": "Date and Time",
-  "second": "Second",
-  "minute": "Minute",
-  "hour": "Hour",
-  "day": "Day",
-  "week": "Week",
-  "month": "Month",
-  "year": "Year",
+  "label.set.target": "Date & Time",
+  "second": "seconds",
+  "minute": "minutes",
+  "hour": "hours",
+  "day": "days",
+  "week": "weeks",
+  "month": "months",
+  "year": "years",
   "label.unit": "Unit",
   "label.color": "Color",
   "confirm": "Confirm",
   "please.config": "Please click the top right to configure time",
   "target.remain": "Remaining until {{time}}",
-  "label.display.time": "Display Title"
+  "label.display.time": "Display Title",
+  "common": {
+    "loading": "Loading...",
+    "error": "Load failed",
+    "success": "Operation success",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  },
+  "timeline": {
+    "title": "Project Timeline",
+    "empty": "No timeline data available",
+    "filterGroup": "Filter by group",
+    "refresh": "Refresh data",
+    "error": "Failed to load data"
+  },
+  "config": {
+    "title": "Timeline Configuration",
+    "table": "Select Table",
+    "selectTable": "Please select a table",
+    "titleField": "Title Field",
+    "selectTitleField": "Please select title field",
+    "dateField": "Date Field",
+    "selectDateField": "Please select date field",
+    "groupField": "Group Field",
+    "selectGroupField": "Please select group field",
+    "descriptionField": "Description Field",
+    "selectDescriptionField": "Please select description field",
+    "colorField": "Color Field",
+    "selectColorField": "Please select color field"
+  }
 }
